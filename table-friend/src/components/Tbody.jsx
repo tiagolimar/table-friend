@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const objToString = (obj) => {
     let toString = "";
     for (const k of Object.keys(obj)) {
