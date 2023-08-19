@@ -1,5 +1,8 @@
-import { MenuBar } from "./../components/MenuBar";
+import { MenuBar } from "./../components/MenuBar"
+
 function Home() {
+
+
     return (
         <>
             <MenuBar />
