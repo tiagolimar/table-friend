@@ -1,11 +1,12 @@
+import { MenuBar } from "../components/MenuBar";
 
 function Login() {
-
-  return (
-    <>
-      <h1>LOGIN</h1>
-    </>
-  )
+    return (
+        <>
+            <MenuBar />
+            <h1>LOGIN</h1>
+        </>
+    );
 }
 
-export default Login
+export default Login;
