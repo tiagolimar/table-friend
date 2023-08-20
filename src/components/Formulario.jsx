@@ -12,7 +12,7 @@ const formatar = (valor) => {
 const renderDados = (userKeys, user) => {
     return userKeys.map((key, id) => {
         return (
-            <Form.Group key={id} className="mb-3" controlId={`fg${id}`}>
+            <Form.Group key={id} className="mb-2" controlId={`fg${id}`}>
                 <Form.Label>
                     <b>{key.toUpperCase()}</b>
                 </Form.Label>
@@ -36,11 +36,11 @@ export const Formulario = (props) => {
     const goHome = () => navigate("/usuarios")
 
     return (
-        <div className="container mb-4">
-            <h3 className="text-center">EDIÇÃO - USUÁRIO {user.id}</h3>
-            <Form className="border border-primary rounded-4 p-4">
+        <div className="container mb-4 col-8">
+            <h4 className="text-center">Formulário de edição do usuário {user.id}</h4>
+            <Form className="border border-success rounded-4 p-2">
                 {renderDados(userKeys, user)}
-                <div className="row">
+                <div className="row mt-4 mb-2">
                     <div className="col-6">
                         <button
                             className="btn btn-primary col-12"

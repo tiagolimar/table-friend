@@ -1,0 +1,32 @@
+body{
+    background-color: #ABDDD9;
+}
+
+nav{
+    background-color: #124948;
+}
+
+.nav-button{
+    background-color: #cbdc6c;
+}
+
+.nav-image{
+    height: 50px;
+}
+
+.home-img{
+    height: 75%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-button:hover{
+    background-color: #1cfeba;
+    box-shadow: 3px 3px 3px #1cfeba60;
+}
+
+.altura-total{
+    height: calc( 100vh - 100px );
+}
