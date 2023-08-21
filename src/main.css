@@ -10,12 +10,21 @@ nav{
     background-color: #cbdc6c;
 }
 
-.nav-image{
-    height: 50px;
+nav h1{
+    color: #ABDDD9;
 }
 
-.home-img{
-    height: 75%;
+main h1{
+    color: #124948;
+    font-size: 72px;
+}
+
+.container h1{
+    color: #124948;
+}
+
+thead{
+    color: #124948;
 }
 
 li{
@@ -29,4 +38,17 @@ li{
 
 .altura-total{
     height: calc( 100vh - 100px );
+}
+
+.btn.confirme{
+    color: #fff;
+    background-color: #124948;
+}
+
+.btn.cancel{
+    background-color: #cbdc6c;
+}
+
+.form-titulo{
+    color: #124948;
 }

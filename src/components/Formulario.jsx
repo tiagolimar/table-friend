@@ -13,7 +13,7 @@ const renderDados = (userKeys, user) => {
     return userKeys.map((key, id) => {
         return (
             <Form.Group key={id} className="mb-2" controlId={`fg${id}`}>
-                <Form.Label>
+                <Form.Label className="form-titulo">
                     <b>{key.toUpperCase()}</b>
                 </Form.Label>
                 <Form.Control
@@ -43,18 +43,18 @@ export const Formulario = (props) => {
                 <div className="row mt-4 mb-2">
                     <div className="col-6">
                         <button
-                            className="btn btn-primary col-12"
+                            className="btn confirme col-12"
                             onClick={goHome}
                         >
-                            Editar
+                            Confirmar e voltar
                         </button>
                     </div>
                     <div className="col-6">
                         <button
-                            className="btn btn-danger col-12"
+                            className="btn cancel col-12"
                             onClick={goHome}
                         >
-                            Cancelar
+                            Cancelar e voltar
                         </button>
                     </div>
                 </div>

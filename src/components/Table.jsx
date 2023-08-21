@@ -18,7 +18,7 @@ export const Table = (props) => {
 
   return data.length > 0 ? (
     <div className="container">
-      <h1>Lista de Usuários</h1>
+      <h2>Lista de Usuários</h2>
       <input
         type="text"
         className="form-control"

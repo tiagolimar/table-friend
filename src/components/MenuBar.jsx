@@ -4,7 +4,7 @@ export const MenuBar = () => {
     return (
     <nav><ul className="d-flex decoration-none gap-2 p-2 justify-content-between">
         <div>
-            <img className='nav-image' src="./src/img/logo-white.png" alt="logomarca branca, table friend" />
+            <h1>TableFriend</h1>
         </div>
         <div className='d-flex decoration-none gap-3 p-2 justify-content-end'>
             <li><Link className="btn nav-button" to="/">HOME</Link></li>
