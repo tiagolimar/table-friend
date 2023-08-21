@@ -6,11 +6,11 @@ nav{
     background-color: #124948;
 }
 
-.nav-button{
+.nav-link{
     background-color: #cbdc6c;
 }
 
-nav h1{
+.navbar-brand{
     color: #ABDDD9;
 }
 
@@ -31,7 +31,7 @@ li{
     list-style-type: none;
 }
 
-.nav-button:hover{
+.nav-link:hover{
     background-color: #1cfeba;
     box-shadow: 3px 3px 3px #1cfeba60;
 }
@@ -51,4 +51,10 @@ li{
 
 .form-titulo{
     color: #124948;
+}
+
+@media (max-width:300px) {
+    .nav-item{
+        font-size: 12px;
+    }
 }
