@@ -1,10 +1,11 @@
 import { MenuBar } from "../components/MenuBar";
+import { FormLogin } from "../components/FormLogin";
 
 function Login() {
     return (
         <>
             <MenuBar />
-            <h1>LOGIN</h1>
+            <FormLogin />
         </>
     );
 }

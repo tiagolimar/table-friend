@@ -17,7 +17,7 @@ export const Table = (props) => {
   }, [props.url]);
 
   return data.length > 0 ? (
-    <div className="container">
+    <div className="container table-responsive">
       <h2>Lista de Usuários</h2>
       <input
         type="text"

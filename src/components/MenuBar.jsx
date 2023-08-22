@@ -9,7 +9,7 @@ export const MenuBar = () => {
             <Container>
                 <Navbar.Brand href="/">TableFriend</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav className="gap-2">
                         <Link className="nav-link rounded-1" to="/">
                             HOME

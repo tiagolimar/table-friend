@@ -21,7 +21,7 @@ function EditUsers() {
     return (
         <>
             <MenuBar />
-            <Formulario data={data} />
+            <Formulario data={data} title={`Dados: Usuário ${data.id}`} />
         </>
     );
 }
