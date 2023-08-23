@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import {Link} from 'react-router-dom'
-import { objToString } from './objToString';
+import { objToString } from '../objToString';
 
 const btnEditar = (item) => (
     <td key={"x" + item} className="align-middle">

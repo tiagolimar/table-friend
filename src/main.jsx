@@ -10,6 +10,7 @@ import Users from "./pages/Users.jsx";
 import EditUser from "./pages/EditUser.jsx";
 import Login from "./pages/Login.jsx";
 import Error from "./pages/Error.jsx";
+import Fotos from './pages/Fotos';
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
         path: "/usuarios/:id",
         element: <EditUser />,
         errorElement: <div className="container"><h1>Xiiii, failhô</h1></div>,
+    },
+    {
+        path: "/fotos",
+        element: <Fotos />,
+        errorElement: <Error />,
     },
     {
         path: "/login",

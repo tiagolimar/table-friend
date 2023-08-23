@@ -17,6 +17,9 @@ export const MenuBar = () => {
                         <Link className="nav-link rounded-1" to="/usuarios">
                             USUÁRIOS
                         </Link>
+                        <Link className="nav-link rounded-1" to="/fotos">
+                            FOTOS
+                        </Link>
                         <Link className="nav-link rounded-1" to="/login">
                             LOGIN
                         </Link>
