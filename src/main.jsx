@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     {
         path: "/usuarios/:id",
         element: <EditUser />,
-        errorElement: <div className="container"><h1>Xiiii, failhô</h1></div>,
+        errorElement: <Error />,
     },
     {
         path: "/fotos",
