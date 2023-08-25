@@ -1,5 +1,5 @@
+/* eslint-disable no-unused-vars */
 import ReactDOM from "react-dom/client";
-// eslint-disable-next-line no-unused-vars
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
