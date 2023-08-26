@@ -25,7 +25,7 @@ export const FormLogin = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="container mb-4 col-8">
+        <div className="container mt-4 mb-4 col-8">
             <h4 className="text-center">Login</h4>
             <Form className="border border-success rounded-4 p-2">
                 <Form.Group className="mb-2" controlId="email">

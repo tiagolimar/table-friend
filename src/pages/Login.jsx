@@ -1,12 +1,10 @@
-import { MenuBar } from "../components/MenuBar";
 import { FormLogin } from "../components/FormLogin";
 
 function Login() {
     return (
-        <>
-            <MenuBar />
+        <div className="container d-flex align-items-center vh-100">
             <FormLogin />
-        </>
+        </div>
     );
 }
 

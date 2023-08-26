@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-import { MenuBar } from "../components/MenuBar";
 import url from "../components/url.js";
 import { Formulario } from './../components/Formulario';
 
@@ -20,7 +19,6 @@ function EditUsers() {
 
     return (
         <>
-            <MenuBar />
             <Formulario data={data} title={`Dados: Usuário ${data.id}`} />
         </>
     );

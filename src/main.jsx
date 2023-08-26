@@ -11,27 +11,35 @@ import EditUser from "./pages/EditUser.jsx";
 import Login from "./pages/Login.jsx";
 import Error from "./pages/Error.jsx";
 import Fotos from './pages/Fotos';
+import App from './App.jsx';
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />,
+        element: <App />,
         errorElement: <Error />,
-    },
-    {
-        path: "/usuarios",
-        element: <Users />,
-        errorElement: <Error />,
-    },
-    {
-        path: "/usuarios/:id",
-        element: <EditUser />,
-        errorElement: <Error />,
-    },
-    {
-        path: "/fotos",
-        element: <Fotos />,
-        errorElement: <Error />,
+        children: [
+            {
+                path: "/",
+                element: <Home />,
+                errorElement: <Error />,
+            },
+            {
+                path: "/usuarios",
+                element: <Users />,
+                errorElement: <Error />,
+            },
+            {
+                path: "/usuarios/:id",
+                element: <EditUser />,
+                errorElement: <Error />,
+            },
+            {
+                path: "/fotos",
+                element: <Fotos />,
+                errorElement: <Error />,
+            },
+        ]
     },
     {
         path: "/login",
