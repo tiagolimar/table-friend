@@ -1,6 +1,7 @@
 # TableFriend - Projeto de Prática em React
 
-Bem-vindo ao projeto TableFriend! Este é um projeto simples desenvolvido com o objetivo de praticar os conceitos básicos do React, usando a combinação de Vite, React e Bootstrap.
+Bem-vindo ao projeto TableFriend! Este é um projeto simples desenvolvido com o objetivo de praticar os conceitos básicos do React, usando a combinação de Vite, React e Bootstrap. Tenha acesso ao site do projeto hospedado na Vercel por meio deste link: https://table-friend-tiagolimar.vercel.app/
+
 
 ## Objetivo
 
